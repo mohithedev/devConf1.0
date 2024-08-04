@@ -1,0 +1,29 @@
+/* responsive for mobile device */
+@media screen and (max-width: 576px) {
+    /* shared and common style */
+    .container {
+        padding: 20px 10px;    
+    }
+    .banner_main {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .video_area {
+        order: 1;
+    }
+    .logo_area {
+        order: 2;
+    }
+    .logo_area, .video_area{
+        width: 100%;
+    }
+
+
+    
+}
+
+/* responsive for medium device */
+
+
+/* responsive for lg device */
