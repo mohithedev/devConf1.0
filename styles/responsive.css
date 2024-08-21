@@ -37,6 +37,18 @@
         width: 100%;
         height: auto;
     }
+    .section_title{
+        text-align: center;
+        line-height: 28px;
+        letter-spacing: 2px;
+    }
+    .supported_box_wrapper{
+        grid-template-columns:  1fr;
+        gap: 30px;
+    }
+    .broadcast_box_wrapper{
+        grid-template-columns: 1fr;
+    }
 }
 
 /* responsive for medium device */
@@ -75,6 +87,13 @@
         width: 100%;
         height: 410px;
     }
+    .supported_box_wrapper{
+        grid-template-columns:  repeat(3, 1fr);
+        gap: 30px;
+    }
+    .broadcast_box_wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 /* responsive for lg device */
@@ -97,7 +116,11 @@
         width: 100%;
         height: 210px;
     }
-    .logo_area .logo_txt .banner_heading  {
-        margin: 50px 0;
+    .supported_box_wrapper{
+        grid-template-columns:  repeat(4, 1fr);
+        gap: 30px;
+    }
+    .broadcast_box_wrapper{
+        grid-template-columns: repeat(4, 1fr);
     }
 }
