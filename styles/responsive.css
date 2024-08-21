@@ -49,6 +49,17 @@
     .broadcast_box_wrapper{
         grid-template-columns: 1fr;
     }
+    .flexy_main {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .flexy_img, .flexy_txt {
+        width: 100%;
+    }
+    .flexy_txt .flexy_heading{
+        font-size: 2rem;
+        text-align: center;
+    }
 }
 
 /* responsive for medium device */
@@ -93,6 +104,9 @@
     }
     .broadcast_box_wrapper{
         grid-template-columns: repeat(3, 1fr);
+    }
+    .flexy_main{
+        flex-direction: column;
     }
 }
 
