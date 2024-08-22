@@ -49,16 +49,24 @@
     .broadcast_box_wrapper{
         grid-template-columns: 1fr;
     }
-    .flexy_main {
+    .flexy_main,
+    .showwcase_main {
         flex-direction: column;
         padding: 10px;
     }
-    .flexy_img, .flexy_txt {
+    .flexy_img, 
+    .flexy_txt,
+    .showwcase_txt,
+    .showwcase_img {
         width: 100%;
     }
-    .flexy_txt .flexy_heading{
+    .flexy_txt .flexy_heading,
+    .showwcase_txt .showwcase_heading{
         font-size: 2rem;
         text-align: center;
+    }
+    .showwcase_main .showwcase_txt{
+        order: 2;
     }
 }
 
@@ -105,8 +113,19 @@
     .broadcast_box_wrapper{
         grid-template-columns: repeat(3, 1fr);
     }
-    .flexy_main{
+    .flexy_main,
+    .showwcase_main {
         flex-direction: column;
+        padding: 10px;
+    }
+    .flexy_img, 
+    .flexy_txt,
+    .showwcase_txt,
+    .showwcase_img {
+        width: 100%;
+    }
+    .showwcase_main .showwcase_txt{
+        order: 2;
     }
 }
 
