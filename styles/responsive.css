@@ -5,6 +5,9 @@
         width: 95%;
         /* padding: 20px 10px; */
     }
+    .section_heading {
+        font-size: 1.8rem;
+    }
     .banner_main {
         flex-direction: column;
         gap: 50px;
@@ -68,6 +71,20 @@
     .showwcase_main .showwcase_txt{
         order: 2;
     }
+    .mike {
+        display: none;
+    }
+    .left_border {
+        border-left: 0;
+        padding: 0;
+    }
+    .event_main{
+        margin: 0 0 100px 0;
+    }
+    .event_box_wrapper {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }
 
 /* responsive for medium device */
@@ -126,6 +143,10 @@
     }
     .showwcase_main .showwcase_txt{
         order: 2;
+    }
+    .event_box_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
     }
 }
 
