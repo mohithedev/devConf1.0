@@ -86,7 +86,6 @@
     }
     .event_box_wrapper {
         grid-template-columns: 1fr; 
-        
         gap: 20px;
     }
      .event_box_wrapper .event_box {
@@ -176,25 +175,9 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }
-        .guidance_wrapper,
-    .network_main,
     .guidance_box{ 
         flex-direction: column;
-    }
-    .hide {
-        display: none;
-    }
-    .guidance_box p{
         text-align: center;
-    }
-    .guidance_wrapper{
-        gap: 20px;
-    }
-    .vision_heading {
-        margin: 50px auto;
-    }
-    .guidance_two{
-        margin: 20px 0;
     }
 }
 
