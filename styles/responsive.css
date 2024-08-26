@@ -112,6 +112,18 @@
     .guidance_two{
         margin: 20px 0;
     }
+    /* speaker responsive from here */
+    .speaker_left_border {
+        border-left: 0;
+        padding: 10px;
+    }
+    .speaker_wrapper {
+        grid-template-columns: 1fr;
+    }
+    .speaker_heading .section_heading:last-child{
+       font-size: 1.5rem;
+       line-height: 2rem;
+    }
 }
 
 /* responsive for medium device */
@@ -179,6 +191,19 @@
         flex-direction: column;
         text-align: center;
     }
+    .speaker_wrapper {
+        grid-template-columns: repeat(2, 1FR);
+        gap: 30px;
+    }
+    .speaker_heading .section_heading:last-child{
+       font-size: 1.5rem;
+       line-height: 2rem;
+    }
+    .speaker_left_border,
+    .left_border {
+        border-left: 0;
+        padding: 10px;
+    }
 }
 
 /* responsive for lg device */
@@ -207,5 +232,9 @@
     }
     .broadcast_box_wrapper{
         grid-template-columns: repeat(4, 1fr);
+    }
+    .speaker_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
     }
 }
