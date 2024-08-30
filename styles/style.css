@@ -231,7 +231,8 @@ section{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-.showwcase_txt .showwcase_heading  .mark{
+.showwcase_txt .showwcase_heading  .mark,
+.grand_main .grand_heading .section_heading .mark{
     background: linear-gradient(211deg, rgb(255, 68, 64) 35%, rgb(208, 29, 116)  100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -364,17 +365,22 @@ section{
 #speaker{
     margin: 0 auto;
 }
+section{
+    /* margin: 0 auto; */
+}
 .speaker_left_border {
     border-left: 3px solid transparent;
     border-image: linear-gradient(0deg, rgba(180,6,134,1) 0%, rgba(12,170,75,1) 79%);
     border-image-slice: 1;
     padding: 0 0 100px 50px;
 }
-.speaker_heading .section_heading:first-child{
+.speaker_heading .section_heading:first-child,
+.grand_heading .section_heading:first-child{
     font-weight: 700;
     margin-bottom: 50px;
 }
-.speaker_heading .section_heading:last-child{
+.speaker_heading .section_heading:last-child,
+.grand_heading .section_heading:last-child{
     font-weight: 500;
 }
 #blue_mark{
