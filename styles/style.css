@@ -53,6 +53,20 @@ button {
 section{
     margin: 0 0 100px 0;
 }
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #22C55E; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #22C55E; 
+}
 /* header area style start here */
 .banner_main {
     display: flex;
