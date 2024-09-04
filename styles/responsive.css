@@ -71,10 +71,12 @@
     .showwcase_main .showwcase_txt{
         order: 2;
     }
-    .mike {
+    .mike,
+    .hide {
         display: none;
     }
-    .left_border {
+    .left_border,
+    #grand .left_border{
         border-left: 0;
         padding: 10px;
     }
@@ -94,11 +96,9 @@
     }
     .guidance_wrapper,
     .network_main,
-    .guidance_box{ 
+    .guidance_box,
+    .grand_box{ 
         flex-direction: column;
-    }
-    .hide {
-        display: none;
     }
     .guidance_box p{
         text-align: center;
@@ -124,11 +124,41 @@
        font-size: 1.5rem;
        line-height: 2rem;
     }
+    /* grand area responsive start from here */
+    .grand_box{
+    display: flex;
+    color: var(--white);
+    align-items: center;
+    border-bottom: 1px solid rgb(75 71 85);
+    padding: 10px;
+    gap: 20px;
+    margin: 0 0 50px 0;
+}
+.grand_left {
+    width: 100%;
+} 
+.grand_right {
+    width: 100%;
+}
+.grand_right h3 {
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 500;
+    text-align: center;
+}
+.grand_heading .section_heading{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 32px;
+}
 }
 
 /* responsive for medium device */
 @media screen and (min-width: 577px) and (max-width: 768px) {
     /* common and shared style */
+    .mike{
+        display: none;
+    }
     .banner_main {
         flex-direction: column;
         gap: 50px;
@@ -200,7 +230,8 @@
        line-height: 2rem;
     }
     .speaker_left_border,
-    .left_border {
+    .left_border,
+    #grand .left_border {
         border-left: 0;
         padding: 10px;
     }

@@ -431,3 +431,70 @@ section{
     font-weight: 500;
     line-height: 25px;
 }
+/* grand day section styles start from here */
+#grand .left_border{
+    border-left: 3px solid transparent;
+    border-image: linear-gradient(0deg, rgb(239, 51, 34) 0%, rgba(180,6,134,1) 79%);
+    border-image-slice: 1;
+    padding: 0 0 100px 50px;
+}
+.grand_box_main {
+    margin: 50px 0 0 0;
+}
+.grand_box{
+    display: flex;
+    color: var(--white);
+    align-items: center;
+    border-bottom: 1px solid rgb(75 71 85);
+    padding: 20px;
+    gap: 50px;
+    margin: 0 0 80px 0;
+}
+.grand_left {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grand_right {
+    width: 75%;
+}
+.grand_topic {
+    font-size: 1.1rem;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 5px 20px;
+    border-radius: 50px;
+    text-align: center;
+    color: var(--white);
+}
+.grand_right h3 {
+    font-size: 1.5rem;
+    line-height: 32px;
+    font-weight: 500;
+}
+.grand_person{
+    color:#09D5FB;
+}
+.Web_Development,
+.Cybersecurity,
+.Freelancing,
+.Networking{
+    background: linear-gradient(90deg, rgba(9,180,214,1) 0%, rgba(56,134,244,1) 100%);
+}
+.Entrepreneurship,
+.Full_Stack,
+.Personal_Branding,
+.Activity{
+    background: linear-gradient(90deg, rgba(107,100,242,1) 0%, rgba(224,75,170,1) 100%);
+}
+.Web_Application,
+.Career,
+.Industry_insights{
+    background: linear-gradient(90deg, rgba(99,102,241,1) 0%, rgba(16,185,129,1) 100%);
+}
+.ux,
+.Productivity,
+.App_Development{
+    background: linear-gradient(90deg, rgba(253,67,67,1) 0%, rgba(210,30,113,1) 100%);
+}
