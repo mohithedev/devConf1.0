@@ -67,6 +67,13 @@ section{
 ::-webkit-scrollbar-thumb:hover {
   background: #44F1A6; 
 }
+#devConf_event,
+#speaker,
+#grand,
+#online_events{
+    margin: 0 auto;
+}
+/* ---- individual style start from here ---- */
 /* header area style start here */
 .banner_main {
     display: flex;
@@ -372,11 +379,6 @@ section{
     background: linear-gradient(211deg, rgba(255,210,51,1) 42%, rgba(191,159,46,1) 100%);
     margin: 50px auto;
 }
-#devConf_event,
-#speaker,
-#grand{
-    margin: 0 auto;
-}
 /* speakers section style start from here */
 .speaker_left_border {
     border-left: 3px solid transparent;
@@ -537,4 +539,57 @@ section{
     font-weight: 400;
     margin: 0 0 50px 0;
     list-style-image: url(../img/circle.svg);
+}
+/* course and session area style start from here */
+#course_session .mike img {
+    position: relative;
+    left: -12px;
+}
+#course_session .left_border {
+    border-left: 3px solid transparent;
+    border-image: linear-gradient(0deg, rgb(109, 30, 198) 0%, rgb(182, 43, 31) 80%);
+    border-image-slice: 1;
+    padding: 0 0 100px 50px;
+}
+.course_session_heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 39px;
+    color: #56E3BB;
+    margin: 0 0 30px 0;
+}
+.course_main {
+    margin: 0 0 100px 0;
+}
+.course_box_wrapper,
+.session_box_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.course_box,
+.session_box {
+    width: 386px;
+    height: 216px;
+}
+.course_box iframe,
+.course_box img,
+.session_box iframe,
+.session_box img{
+    width: 100%;
+    height: 100%;
+}
+.course_box iframe,
+.course_box img,
+.session_box iframe,
+.session_box img{
+    border-radius: 10px;
+}
+.course_box img, 
+.session_box img {
+    transition: all .5s;
+}
+.course_box img:hover,
+.session_box img:hover{
+    transform: scale(1.1);
 }
