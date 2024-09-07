@@ -70,7 +70,8 @@ section{
 #devConf_event,
 #speaker,
 #grand,
-#online_events{
+#online_events,
+#course_session{
     margin: 0 auto;
 }
 /* ---- individual style start from here ---- */
@@ -129,13 +130,15 @@ section{
 }
 
 /* supported area style from here */
-.supported_box_wrapper{
+.supported_box_wrapper,
+.sponsors_box_wrapper{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 50px;
 }
-.supported_box {
+.supported_box,
+.sponsors_box {
     padding: 24px 8px;
     border: 1px solid rgba(51,65,85,.3);
     border-radius: 5px;
@@ -145,11 +148,13 @@ section{
     justify-content: center;
     height: 130px;
 }
-.supported_box:hover{
+.supported_box:hover,
+.sponsors_box:hover{
     transform: scale(1.1);
     box-shadow: 1px 2px 15px 2px rgba(66, 190, 112, 0.705);
 }
-.supported_box img{
+.supported_box img,
+.sponsors_box img{
     width: 100%;
     object-fit: cover;
 }
@@ -592,4 +597,46 @@ section{
 .course_box img:hover,
 .session_box img:hover{
     transform: scale(1.1);
+}
+/* support sponsors section style start from here */
+.sponsors_main .sponsors_box_wrapper {
+    margin: 50px 0 0 0;
+}
+#sponsors .left_border {
+    border-left: 3px solid transparent;
+    border-image: linear-gradient(0deg, rgb(185, 146, 45) 0%, rgb(100, 28, 209) 80%);
+    border-image-slice: 1;
+    padding: 0 0 100px 50px;
+}
+/* surprising gifts */
+.surprising_gifts_main {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.surprising_gifts {
+    width: 900px;
+    height: 900px;
+    margin: 100px 0 0 0;
+    padding: 120px;
+    border: 3px dashed #09D5FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.gifts_txt .gifts_heading {
+    font-size: 3.75rem;
+    color: var(--white);
+    font-weight: 600;
+    line-height: 68px;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+.gifts_txt .gifts_description {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
 }
