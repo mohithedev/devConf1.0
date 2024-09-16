@@ -1,342 +1,375 @@
 /* responsive for mobile device */
 @media screen and (max-width: 576px) {
-    /* shared and common style */
-    .container {
-        width: 95%;
-        /* padding: 20px 10px; */
-    }
-    .section_heading {
-        font-size: 1.8rem;
-    }
-    .banner_main {
-        flex-direction: column;
-        gap: 50px;
-    }
-    .logo_area, 
-    .logo_area .logo,
-    .video_area,
-    .banner_conf iframe {
-        width: 100%;
-    }
-    .logo_area {
-        order: 2;
-        text-align: center;
-    }
-    .logo{ 
-        margin: 0 0 5px 0;    
-    }
-    .two_logo {
-        gap: 20px;
-    }
-    .logo_area .logo_txt .banner_heading {
-        font-size: 1.8rem;
-        margin: 30px 0 20px;
-        line-height: 2.25rem;
-    }
-    .logo_area .logo_txt .description{
-        margin: 0 0 20px 0;
-    }
-    .video_area .banner_conf iframe {
-        width: 100%;
-        height: auto;
-    }
-    .section_title{
-        text-align: center;
-        line-height: 28px;
-        letter-spacing: 2px;
-    }
-    .supported_box_wrapper,
-    .sponsors_box_wrapper{
-        grid-template-columns:  1fr;
-        gap: 30px;
-    }
-    .broadcast_box_wrapper{
-        grid-template-columns: 1fr;
-    }
-    .flexy_main,
-    .showwcase_main {
-        flex-direction: column;
-        padding: 10px;
-    }
-    .flexy_img, 
-    .flexy_txt,
-    .showwcase_txt,
-    .showwcase_img {
-        width: 100%;
-    }
-    .flexy_txt .flexy_heading,
-    .showwcase_txt .showwcase_heading{
-        font-size: 2rem;
-        text-align: center;
-    }
-    .showwcase_main .showwcase_txt{
-        order: 2;
-    }
-    .mike,
-    .hide {
-        display: none;
-    }
-    .left_border,
-    #grand .left_border,
-    #online_events .left_border,
-    #course_session .left_border,
-    #sponsors .left_border{
-        border-left: 0;
-        padding: 10px;
-    }
-    .event_main{
-        margin: 0 0 100px 0;
-    }
-    .event_heading .section_heading{
-        font-size: 1.5rem;
-    }
-    .event_box_wrapper {
-        grid-template-columns: 1fr; 
-        gap: 20px;
-    }
-     .event_box_wrapper .event_box {
-        max-width: 100%;
-        
-    }
-    .guidance_wrapper,
-    .network_main,
-    .guidance_box,
-    .grand_box{ 
-        flex-direction: column;
-    }
-    .guidance_box p{
-        text-align: center;
-    }
-    .guidance_wrapper{
-        gap: 20px;
-    }
-    .vision_heading {
-        margin: 50px auto;
-    }
-    .guidance_two{
-        margin: 20px 0;
-    }
-    /* speaker responsive from here */
-    .speaker_wrapper {
-        grid-template-columns: 1fr;
-    }
-    .speaker_heading .section_heading:last-child{
-       font-size: 1.5rem;
-       line-height: 2rem;
-    }
-    /* grand area responsive start from here */
-    .grand_box{
-        display: flex;
-        color: var(--white);
-        align-items: center;
-        border-bottom: 1px solid rgb(75 71 85);
-        padding: 10px;
-        gap: 20px;
-        margin: 0 0 50px 0;
-    }
-    .grand_left {
-        width: 100%;
-    } 
-    .grand_right {
-        width: 100%;
-    }
-    .grand_right h3 {
-        font-size: 1rem;
-        line-height: 26px;
-        font-weight: 500;
-        text-align: center;
-    }
-    .grand_heading .section_heading,
-    .online_events_heading .section_heading{
-        font-size: 1.5rem;
-        font-weight: 400;
-        line-height: 32px;
-    }
-/* online events style start from here */
-    .online_events_topics {
-        flex-direction: column;
-    }
-    .topics_text {
-        width: 100%;
-    }
-    .topics_img {
-        width: 100%;
-    }
-    .topics_img image {
-        width: 100%;
-    }
-    .topics_text .list li{
-        list-style-position: inside;
-    }
-    /* course and session area responsive start form here */
-    .course_box_wrapper,
-    .session_box_wrapper  {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    .course_box,
-    .session_box {
-        width: 100%;
-        height: 218px;
-    }
+  /* shared and common style */
+  .container {
+    width: 95%;
+    /* padding: 20px 10px; */
+  }
+  .section_heading {
+    font-size: 1.8rem;
+  }
+  .banner_main {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .logo_area,
+  .logo_area .logo,
+  .video_area,
+  .banner_conf iframe {
+    width: 100%;
+  }
+  .logo_area {
+    order: 2;
+    text-align: center;
+  }
+  .logo {
+    margin: 0 0 5px 0;
+  }
+  .two_logo {
+    gap: 20px;
+  }
+  .logo_area .logo_txt .banner_heading {
+    font-size: 1.8rem;
+    margin: 30px 0 20px;
+    line-height: 2.25rem;
+  }
+  .logo_area .logo_txt .description {
+    margin: 0 0 20px 0;
+  }
+  .video_area .banner_conf iframe {
+    width: 100%;
+    height: auto;
+  }
+  .section_title {
+    text-align: center;
+    line-height: 28px;
+    letter-spacing: 2px;
+  }
+  .supported_box_wrapper,
+  .sponsors_box_wrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .broadcast_box_wrapper {
+    grid-template-columns: 1fr;
+  }
+  .flexy_main,
+  .showwcase_main {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .flexy_img,
+  .flexy_txt,
+  .showwcase_txt,
+  .showwcase_img {
+    width: 100%;
+  }
+  .flexy_txt .flexy_heading,
+  .showwcase_txt .showwcase_heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .showwcase_main .showwcase_txt {
+    order: 2;
+  }
+  .mike,
+  .hide {
+    display: none;
+  }
+  .left_border,
+  #grand .left_border,
+  #online_events .left_border,
+  #course_session .left_border,
+  #sponsors .left_border,
+  .speaker_left_border {
+    border-left: 0;
+    padding: 10px;
+  }
+  .event_main {
+    margin: 0 0 100px 0;
+  }
+  .event_heading .section_heading {
+    font-size: 1.5rem;
+  }
+  .event_box_wrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .event_box_wrapper .event_box {
+    max-width: 100%;
+  }
+  .guidance_wrapper,
+  .network_main,
+  .guidance_box,
+  .grand_box {
+    flex-direction: column;
+  }
+  .guidance_box p {
+    text-align: center;
+  }
+  .guidance_wrapper {
+    gap: 20px;
+  }
+  .vision_heading {
+    margin: 50px auto;
+  }
+  .guidance_two {
+    margin: 20px 0;
+  }
+  /* speaker responsive from here */
+  .speaker_wrapper {
+    grid-template-columns: 1fr;
+  }
+  .speaker_heading .section_heading:last-child {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  /* grand area responsive start from here */
+  .grand_box {
+    display: flex;
+    color: var(--white);
+    align-items: center;
+    border-bottom: 1px solid rgb(75 71 85);
+    padding: 10px;
+    gap: 20px;
+    margin: 0 0 50px 0;
+  }
+  .grand_left {
+    width: 100%;
+  }
+  .grand_right {
+    width: 100%;
+  }
+  .grand_right h3 {
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .grand_heading .section_heading,
+  .online_events_heading .section_heading {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  /* online events style start from here */
+  .online_events_topics {
+    flex-direction: column;
+  }
+  .topics_text {
+    width: 100%;
+  }
+  .topics_img {
+    width: 100%;
+  }
+  .topics_img image {
+    width: 100%;
+  }
+  .topics_text .list li {
+    list-style-position: inside;
+  }
+  /* course and session area responsive start form here */
+  .course_box_wrapper,
+  .session_box_wrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .course_box,
+  .session_box {
+    width: 100%;
+    height: 218px;
+  }
+  .surprising_gifts {
+    width: 270px;
+    height: 270px;
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .gifts_txt .gifts_heading {
+    font-size: 1.2rem;
+    line-height: 23px;
+    text-align: center;
+    margin: 0 0 20px 0;
+  }
+  .gifts_txt .gifts_description {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+  .footer_logo{
+    text-align: center;
+  }
+  .footer_txt{
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
 }
 
 /* responsive for medium device */
 @media screen and (min-width: 577px) and (max-width: 768px) {
-    /* common and shared style */
-    .mike{
-        display: none;
-    }
-    .banner_main {
-        flex-direction: column;
-        gap: 50px;
-        text-align: center;
-    }
-    .logo_area {
-        order: 2;
-    }
-    .banner_main > *,
-    .logo_area > *,
-    .logo_txt > p,
-    .video_area *{
-        width: 100%;
-    }
-    .logo_area {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .logo_area .logo {
-        max-width: 300px;
-    }
-    .logo img{
-        width: 100%;
-    }   
-    .banner_main .logo_txt .banner_heading{
-        font-size: 1.87rem;
-    }
-    .video_area .banner_conf iframe {
-        width: 100%;
-        height: 410px;
-    }
-    .supported_box_wrapper,
-    .sponsors_box_wrapper{
-        grid-template-columns:  repeat(3, 1fr);
-        gap: 30px;
-    }
-    .broadcast_box_wrapper{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .flexy_main,
-    .showwcase_main {
-        flex-direction: column;
-        padding: 10px;
-    }
-    .flexy_img, 
-    .flexy_txt,
-    .showwcase_txt,
-    .showwcase_img {
-        width: 100%;
-    }
-    .showwcase_main .showwcase_txt{
-        order: 2;
-    }
-    .event_box_wrapper {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-    }
-    .guidance_box{ 
-        flex-direction: column;
-        text-align: center;
-    }
-    .speaker_wrapper {
-        grid-template-columns: repeat(2, 1FR);
-        gap: 30px;
-    }
-    .speaker_heading .section_heading:last-child{
-       font-size: 1.5rem;
-       line-height: 2rem;
-    }
-    .speaker_left_border,
-    .left_border,
-    #grand .left_border,
-    #online_events .left_border,
-    #course_session .left_border,
-    #sponsors .left_border {
-        border-left: 0;
-        padding: 10px;
-    }
-    /* online events style start from here */
-    .online_events_topics {
-        flex-direction: column;
-    }
-    .topics_text {
-        width: 100%;
-    }
-    .topics_img {
-        width: 100%;
-    }
-    .topics_img image {
-        width: 100%;
-    }
-    /* course session responsive from here */
-    .course_box_wrapper,
-    .session_box_wrapper {
-        justify-content: center;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-    }
-    .course_box,
-    .session_box {
-        width: 330px;
-        height: 185px;
-    }
-    .course_box iframe,
-    .course_box img,
-    .session_box iframe,
-    .session_box img{
-        width: 100%;
-        height: 100%;
-    }
+  /* common and shared style */
+  .mike {
+    display: none;
+  }
+  .banner_main {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
+  .logo_area {
+    order: 2;
+  }
+  .banner_main > *,
+  .logo_area > *,
+  .logo_txt > p,
+  .video_area * {
+    width: 100%;
+  }
+  .logo_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo_area .logo {
+    max-width: 300px;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .banner_main .logo_txt .banner_heading {
+    font-size: 1.87rem;
+  }
+  .video_area .banner_conf iframe {
+    width: 100%;
+    height: 410px;
+  }
+  .supported_box_wrapper,
+  .sponsors_box_wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  .broadcast_box_wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .flexy_main,
+  .showwcase_main {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .flexy_img,
+  .flexy_txt,
+  .showwcase_txt,
+  .showwcase_img {
+    width: 100%;
+  }
+  .showwcase_main .showwcase_txt {
+    order: 2;
+  }
+  .event_box_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .guidance_box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .speaker_wrapper {
+    grid-template-columns: repeat(2, 1FR);
+    gap: 30px;
+  }
+  .speaker_heading .section_heading:last-child {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .speaker_left_border,
+  .left_border,
+  #grand .left_border,
+  #speaker .left_border,
+  #online_events .left_border,
+  #course_session .left_border,
+  #sponsors .left_border {
+    border-left: 0;
+    padding: 10px;
+  }
+  /* online events style start from here */
+  .online_events_topics {
+    flex-direction: column;
+  }
+  .topics_text {
+    width: 100%;
+  }
+  .topics_img {
+    width: 100%;
+  }
+  .topics_img image {
+    width: 100%;
+  }
+  /* course session responsive from here */
+  .course_box_wrapper,
+  .session_box_wrapper {
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .course_box,
+  .session_box {
+    width: 330px;
+    height: 185px;
+  }
+  .course_box iframe,
+  .course_box img,
+  .session_box iframe,
+  .session_box img {
+    width: 100%;
+    height: 100%;
+  }
+  .footer_logo{
+    text-align: center;
+  }
+  .footer_txt{
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
 }
 
 /* responsive for lg device */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .banner_main {
-        justify-content: space-between;
-        gap: 0px;
-    }
-    .logo_area{
-        width: 47%;
-    }
-    .video_area {
-        width: 47%;
-    }
-    .logo_area .logo,
-    .banner_conf{
-        width: 100%;
-    }
-    .video_area .banner_conf iframe {
-        width: 100%;
-        height: 210px;
-    }
-    .course_box_wrapper,
-    .session_box_wrapper {
-        justify-content: center;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-    }
-    .supported_box_wrapper,
-    .sponsors_box_wrapper{
-        grid-template-columns:  repeat(4, 1fr);
-        gap: 30px;
-    }
-    .broadcast_box_wrapper{
-        grid-template-columns: repeat(4, 1fr);
-    }
-    .speaker_wrapper {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-    }
+  .banner_main {
+    justify-content: space-between;
+    gap: 0px;
+  }
+  .logo_area {
+    width: 47%;
+  }
+  .video_area {
+    width: 47%;
+  }
+  .logo_area .logo,
+  .banner_conf {
+    width: 100%;
+  }
+  .video_area .banner_conf iframe {
+    width: 100%;
+    height: 210px;
+  }
+  .course_box_wrapper,
+  .session_box_wrapper {
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .supported_box_wrapper,
+  .sponsors_box_wrapper {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+  .broadcast_box_wrapper {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .speaker_wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
 }

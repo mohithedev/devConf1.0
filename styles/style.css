@@ -624,6 +624,7 @@ section{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    animation: ;
 }
 .gifts_txt .gifts_heading {
     font-size: 3.75rem;
@@ -639,4 +640,31 @@ section{
     line-height: 32px;
     color: rgba(255, 255, 255, 0.7);
     text-align: center;
+}
+@keyframes gifts_loader {
+    0%{
+
+    }
+}
+/* footer style start from here */
+.footer_txt,
+.footer_list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_list {
+  gap: 20px;
+}
+.footer_txt{
+    margin: 30px 0 0 0;
+}
+.footer_txt p,
+.footer_list li a{
+  color: var(--light_gray);
+}
+.footer_txt .green_mark{
+    background: linear-gradient(90deg, rgb(217, 226, 214) 0%, rgba(0,255,106,1) 35%, rgb(12, 170, 75) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
