@@ -195,6 +195,30 @@
     font-size: 1rem;
     line-height: 20px;
   }
+  /* organizer area responsive start form here */
+  .organizer_txt .lws {
+    font-size: 2rem;
+    line-height: 39px;
+  }
+  .organizer_txt .organizer_heading{
+    font-size: 1.5rem;
+    line-height: 32px;
+  }
+  .organizer_intro {
+    flex-direction: column;
+  }
+  .organizer_intro {
+    padding: 10px;
+  }
+  .organizer_img img{
+    width: 100%;
+  }
+  .organizer_intro .organizer_intro_txt .organizer_intro_heading {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+  }
+  /* footer area responsive start form here */
   .footer_logo{
     text-align: center;
   }
@@ -330,6 +354,17 @@
     padding: 20px;
     border-radius: 50%;
   }
+  /* organizer area responsive start from here */
+  .organizer_intro {
+    flex-direction: column;
+  }
+  .organizer_left {
+    display: none;
+  }
+  .organizer_img img{
+    width: 100%;
+  }
+  /* footer area responsive start from here */
   .footer_logo{
     text-align: center;
   }
@@ -378,4 +413,18 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
+   .organizer_img{
+      flex-basis: 60%;
+   }
+   .organizer_intro_txt {
+    flex-basis: 40%;
+  }
+  .organizer_img img{
+    width: 100%;
+  }
+  .organizer_intro .organizer_intro_txt .organizer_intro_heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
 }

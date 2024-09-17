@@ -646,6 +646,62 @@ section{
 
     }
 }
+/* organizer section style start form here  */
+.organizer_main {
+    color: var(--white);
+    display: flex; 
+    gap: 30px;
+}
+.organizer_txt * {
+    margin: 0 0 15px 0;
+}
+.organizer_txt .organizer_title {
+    color: #60A5FA;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.organizer_txt .lws {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 50px;
+}
+.organizer_txt .organizer_heading{
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 58px;
+}
+.organizer_intro {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    border: 1px solid var(--light_gray);
+    border-radius: 10px;
+    margin: 50px 0 0 0;
+    transition: 1s;
+}
+.organizer_intro:hover{
+    background: rgba(190, 189, 189, 0.123);
+    cursor: pointer;
+}
+.organizer_img img{
+    border-radius: 10px;
+}
+.organizer_intro .organizer_intro_txt .organizer_intro_heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+.organizer_list li {
+    list-style-image: url(../img/badge-check.svg);
+    list-style-position: inside;
+    margin: 0 0 20px 0;
+    color: var(--light_gray);
+}
+.organizer_list li .highlight {
+    color: var(--white);
+    font-weight: 700;
+}
 /* footer style start from here */
 .footer_txt,
 .footer_list{
