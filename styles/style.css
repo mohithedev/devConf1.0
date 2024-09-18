@@ -71,7 +71,8 @@ section{
 #speaker,
 #grand,
 #online_events,
-#course_session{
+#course_session,
+#sponsors{
     margin: 0 auto;
 }
 /* ---- individual style start from here ---- */
@@ -393,7 +394,8 @@ section{
 }
 .speaker_heading .section_heading:first-child,
 .grand_heading .section_heading:first-child,
-.online_events_heading .section_heading{
+.online_events_heading .section_heading,
+.quiz_challenge_heading .section_heading:first-child{
     font-weight: 700;
     margin-bottom: 50px;
 }
@@ -645,6 +647,33 @@ section{
     0%{
 
     }
+}
+/* quiz challenge style start from here */
+#quiz_challenge .left_border{
+    border-left: 3px solid transparent;
+    border-image: linear-gradient(0deg, rgb(192, 176, 16) 0%, rgb(193, 156, 30) 79%);
+    border-image-slice: 1;
+    padding: 0 0 100px 50px;
+}
+.gradient_bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 0;
+    background: conic-gradient(from 180.17deg at 50% 50%,#ff8672 -50.63deg,#ff6682 9.37deg,#ce3d93 70.55deg,#9909c3 97.56deg,#8322ff 133.12deg,#4bb2fd 174.38deg,#70dcfe 205deg,#aac1a6 213.75deg,#ff9d66 226.87deg,#ff9869 268.13deg,#ff8672 309.38deg,#ff6682 369.37deg);
+    padding: 160px 40px;
+    border-radius: 10px;
+}
+.gradient_img{
+    width: 675px;
+}
+.gradient_img img{
+    width: 100%;
+    border-radius: 10px;
+    transition: .5s;
+}
+.gradient_img img:hover{
+    transform: scale(1.1);
 }
 /* quiz section style start form here */
 .quiz_main {
