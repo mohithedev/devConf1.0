@@ -81,7 +81,8 @@
   #online_events .left_border,
   #course_session .left_border,
   #sponsors .left_border,
-  .speaker_left_border {
+  .speaker_left_border,
+  #quiz_challenge .left_border{
     border-left: 0;
     padding: 10px;
   }
@@ -195,7 +196,19 @@
     font-size: 1rem;
     line-height: 20px;
   }
-  /* quiz section style start from here */
+  /* quiz challenge section responsive from here */
+  .quiz_challenge_heading {
+    margin: 50px 0 0 0;
+  }
+  .quiz_challenge_heading .section_heading:first-child{
+    font-size: 1.9rem;
+    margin: 0 0  30px 0;
+  }
+  .quiz_challenge_heading .section_heading:last-child{
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  /* quiz section section responsive from here */
   .quiz_txt .quiz_heading {
     font-size: 2rem
 }
@@ -236,6 +249,9 @@
 /* responsive for medium device */
 @media screen and (min-width: 577px) and (max-width: 768px) {
   /* common and shared style */
+  .container {
+    width: 95%;
+  }
   .mike {
     display: none;
   }
@@ -316,7 +332,8 @@
   #speaker .left_border,
   #online_events .left_border,
   #course_session .left_border,
-  #sponsors .left_border {
+  #sponsors .left_border,
+  #quiz_challenge .left_border{
     border-left: 0;
     padding: 10px;
   }
@@ -357,6 +374,18 @@
     height: 650px;
     padding: 20px;
     border-radius: 50%;
+  }
+  /* quiz challenge section responsive start from here */
+   .quiz_challenge_heading {
+    margin: 80px 0 0 0;
+  }
+  .quiz_challenge_heading .section_heading:last-child{
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  /* quiz section responsive start from here */
+  .quiz_txt .quiz_heading {
+    text-align: center;
   }
   /* organizer area responsive start from here */
   .organizer_intro {
