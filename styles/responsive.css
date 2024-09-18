@@ -195,6 +195,10 @@
     font-size: 1rem;
     line-height: 20px;
   }
+  /* quiz section style start from here */
+  .quiz_txt .quiz_heading {
+    font-size: 2rem
+}
   /* organizer area responsive start form here */
   .organizer_txt .lws {
     font-size: 2rem;
