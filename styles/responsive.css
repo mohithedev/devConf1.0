@@ -5,6 +5,9 @@
     width: 95%;
     /* padding: 20px 10px; */
   }
+  .common_heading{
+    margin: 0 0 50px 0;
+  }
   .section_heading {
     font-size: 1.8rem;
   }
@@ -251,6 +254,9 @@
   /* common and shared style */
   .container {
     width: 95%;
+  }
+  .common_heading{
+    margin: 0 0 50px 0;
   }
   .mike {
     display: none;

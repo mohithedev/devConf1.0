@@ -75,6 +75,30 @@ section{
 #sponsors{
     margin: 0 auto;
 }
+.common_heading{
+    margin: -65px 0 0 0;
+}
+.common_heading .section_heading:first-child{
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.common_heading .section_heading:last-child{
+    font-weight: 500;
+}
+#blue_mark{
+    font-weight: 700;
+    background: linear-gradient(90deg, rgb(72, 93, 245) 0%, rgb(108, 144, 207) 35%, rgb(13, 204, 251) 100%);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+}
+.green_mark{
+    background: linear-gradient(90deg, rgb(217, 226, 214) 0%, rgba(0,255,106,1) 35%, rgb(12, 170, 75) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.red_mark {
+    color: rgb(234 96 69);
+}
 /* ---- individual style start from here ---- */
 /* header area style start here */
 .banner_main {
@@ -277,15 +301,10 @@ section{
     padding: 0 0 100px 50px;
 }
 .event_heading {
-    margin: 0 0 80px 0;
+    margin-bottom: 80px;
 }
-.section_heading .green_mark{
-    background: linear-gradient(90deg, rgb(217, 226, 214) 0%, rgba(0,255,106,1) 35%, rgb(12, 170, 75) 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-.section_heading .red_mark {
-    color: rgb(234 96 69);
+.event_heading .section_heading:first-child{
+    margin-bottom: 10px;
 }
 .event_box_wrapper {
     display: grid; 
@@ -392,23 +411,6 @@ section{
     border-image-slice: 1;
     padding: 0 0 100px 50px;
 }
-.speaker_heading .section_heading:first-child,
-.grand_heading .section_heading:first-child,
-.online_events_heading .section_heading,
-.quiz_challenge_heading .section_heading:first-child{
-    font-weight: 700;
-    margin-bottom: 50px;
-}
-.speaker_heading .section_heading:last-child,
-.grand_heading .section_heading:last-child{
-    font-weight: 500;
-}
-#blue_mark{
-    font-weight: 700;
-    background: linear-gradient(90deg, rgb(72, 93, 245) 0%, rgb(108, 144, 207) 35%, rgb(13, 204, 251) 100%);
-    -webkit-text-fill-color: transparent; 
-    -webkit-background-clip: text; 
-}
 .speaker_wrapper {
     margin: 50px 0 0 0;
     display: grid;
@@ -427,10 +429,8 @@ section{
     width: 244px;
     height: 244px;
     overflow: hidden;
-    /* border: 8px solid transparent; */
     border: 8px solid #0dccfb ;
     border-radius: 50%;
-    /* background: linear-gradient(0deg, rgba(13,204,251,1) 0%, rgba(72,93,245,1) 60%); */
 }
 .speaker_img img{
     width: 100%;
