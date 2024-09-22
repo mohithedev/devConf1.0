@@ -350,6 +350,9 @@
   .topics_img image {
     width: 100%;
   }
+  .topics_text .list li {
+    list-style-position: inside;
+  }
   /* course session responsive from here */
   .course_box_wrapper,
   .session_box_wrapper {
@@ -428,12 +431,21 @@
     width: 100%;
     height: 210px;
   }
+  .event_box_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
   .course_box_wrapper,
   .session_box_wrapper {
     justify-content: center;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
+  .course_box,
+  .session_box {
+    width: 300px;
+    height: auto;
+}
   .supported_box_wrapper,
   .sponsors_box_wrapper {
     grid-template-columns: repeat(4, 1fr);
@@ -443,12 +455,21 @@
     grid-template-columns: repeat(4, 1fr);
   }
   .speaker_wrapper {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+  }
+  .surprising_gifts {
+    width: 700px;
+    height: 700px;
+    padding: 20px;
+    border-radius: 50%;
   }
    .organizer_img{
       flex-basis: 60%;
    }
+    .organizer_intro {
+      flex-direction: column;
+  }
    .organizer_intro_txt {
     flex-basis: 40%;
   }
